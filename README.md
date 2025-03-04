@@ -14,38 +14,38 @@ The GNM is based on Gaussian Mixture Models (GMM), which use a probabilistic app
 + The target variable (driver activities) is label-encoded into numerical format.
 # 2. Model Training:
 
--A Gaussian Mixture Model (GMM) is trained with a number of components equal to the unique activities.
--The model uses full covariance type to capture interdependencies between features.
--It learns the probability distribution of each activity from the training data.
++ A Gaussian Mixture Model (GMM) is trained with a number of components equal to the unique activities.
++ The model uses full covariance type to capture interdependencies between features.
++ It learns the probability distribution of each activity from the training data.
 # 3. Prediction & Evaluation:
 
--The trained model predicts the most probable activity class for new test data.
--Performance is evaluated using accuracy, precision, recall, and F1-score.
--The log-likelihood scores for training and test sets are also computed.
++ The trained model predicts the most probable activity class for new test data.
++ Performance is evaluated using accuracy, precision, recall, and F1-score.
++ The log-likelihood scores for training and test sets are also computed.
 # Performance & Results
 Due to the limited dataset, the model's performance is relatively low, as reflected in the accuracy and log-likelihood scores:
 
--Train Accuracy: 0.20
--Test Accuracy: 0.21
--Overall Accuracy: 0.21
--Precision: 0.20
--Recall: 0.21
--F1-Score: 0.20
--Train Score: -13.85
--Test Score: -14.36
++ Train Accuracy: 0.20
++ Test Accuracy: 0.21
++ Overall Accuracy: 0.21
++ Precision: 0.20
++ Recall: 0.21
++ F1-Score: 0.20
++ Train Score: -13.85
++ Test Score: -14.36
 
 # Why Are the Scores Low?
--The dataset size is small, limiting the model's ability to learn meaningful patterns.
--Gaussian models work best with larger datasets to accurately estimate distributions.
--Additional feature engineering and data augmentation could improve accuracy.
++ The dataset size is small, limiting the model's ability to learn meaningful patterns.
++ Gaussian models work best with larger datasets to accurately estimate distributions.
++ Additional feature engineering and data augmentation could improve accuracy.
 
 # How to Run the Code
 # Prerequisites
 Ensure you have the following installed:
 
--Python 3.x
--NumPy
--Scikit-learn
++ Python 3.x
++ NumPy
++ Scikit-learn
 
 # Steps to Run
 1. Clone the repository:
@@ -55,8 +55,8 @@ cd GNM
 3. Run the script in a Python environment (or Jupyter Notebook):
 python gnm_driver_activity.py
 # Future Improvements
--Increase dataset size for better generalization.
--Feature engineering to improve representation.
--Hybrid models combining GMM with deep learning (e.g., LSTM + GMM).
++ Increase dataset size for better generalization.
++ Feature engineering to improve representation.
++ Hybrid models combining GMM with deep learning (e.g., LSTM + GMM).
 
 Let's collaborate and improve AI-driven driver activity recognition! 🚗💡
