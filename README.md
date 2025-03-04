@@ -8,10 +8,10 @@ The GNM is based on Gaussian Mixture Models (GMM), which use a probabilistic app
 
 # How It Works
 # 1. Data Preprocessing:
-##
--The input data includes sensor readings such as acceleration, speed, and steering angles.
--Features are standardized using StandardScaler to ensure optimal performance.
--The target variable (driver activities) is label-encoded into numerical format.
+
++ The input data includes sensor readings such as acceleration, speed, and steering angles.
++ Features are standardized using StandardScaler to ensure optimal performance.
++ The target variable (driver activities) is label-encoded into numerical format.
 # 2. Model Training:
 
 -A Gaussian Mixture Model (GMM) is trained with a number of components equal to the unique activities.
